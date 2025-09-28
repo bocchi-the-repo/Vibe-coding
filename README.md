@@ -47,6 +47,22 @@ Changes made for Step 2:
 - Updated `src/views/Home.vue` to show a simple English "home" page.
 - Updated router (`src/router/index.ts`) to use `/` as login route and `/home` as the homepage.
 
+Step 3 — Front-end subscription interface
+
+Changes made for Step 3:
+
+- Added three section views under `src/views/`: `Animation.vue`, `Live.vue`, and `Movies.vue` (each contains the section name as the primary content).
+- Reworked `src/views/Home.vue` into a two-column layout with a left sidebar and main content area. The left sidebar has a white background and shows user information (avatar and name) at the top.
+- Added three navigation buttons in the sidebar (display order: Animation, Live Streaming, Movies). Buttons are bold black text and located below the user info.
+- The homepage (`/home`) now uses child routes for the three sections. The default navigation when entering `/home` is to the Animation section.
+- Added a Logout button at the bottom of the left sidebar; clicking it redirects back to the login route `/`.
+- Updated `src/router/index.ts` to register child routes for the sections and wired them to the new views. `Home` acts as the parent route hosting the sidebar and child `<router-view/>`.
+
+Run dev server to preview:
+
+1. npm install
+2. npm run dev
+
 Run dev server to preview:
 
 1. npm install
