@@ -37,3 +37,18 @@ Notes
 
 - Router is implemented in TypeScript at `src/router/index.ts`.
 - Static public files belong in the `public` folder and are referenced at the root (`/`).
+
+Step 2 — Front-end design updates
+
+Changes made for Step 2:
+
+- Added a HOBI logo at `src/assets/hobi-logo.svg` (pink gradient background).
+- Created `src/views/Login.vue` — a login screen with logo, "Welcome to HOBI", username/password fields and a Login button which redirects to the home page.
+- Updated `src/views/Home.vue` to show a simple English "home" page.
+- Updated router (`src/router/index.ts`) to use `/` as login route and `/home` as the homepage.
+
+Run dev server to preview:
+
+1. npm install
+2. npm run dev
+

@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-    <h1>Welcome to vue_app_v0.2</h1>
-    <img src="/logo.png" alt="logo" />
+  <div class="home-page">
+    <h1>home</h1>
   </div>
 </template>
 
@@ -14,5 +13,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.home { padding: 2rem }
+.home-page { padding: 2rem; font-family: Arial, sans-serif }
 </style>
