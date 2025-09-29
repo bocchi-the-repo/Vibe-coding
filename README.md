@@ -58,7 +58,9 @@ Changes made for Step 3:
 - Added a Logout button at the bottom of the left sidebar; clicking it redirects back to the login route `/`.
 - Updated `src/router/index.ts` to register child routes for the sections and wired them to the new views. `Home` acts as the parent route hosting the sidebar and child `<router-view/>`.
 
-Step 3 — Detailed page behavior
+Step 4 — Detailed page behavior
+
+Changes made for Step 4:
 
 - Animation & Movies pages:
    - Each page contains a "Currently following" area showing items the user follows.
@@ -68,18 +70,5 @@ Step 3 — Detailed page behavior
    - Shows favorite streamers first. The top recommended live stream is displayed in a large player area.
    - Below the large player, a selectable list/grid of other recommended streams is available.
 
-Run dev server to preview:
 
-1. npm install
-2. npm run dev
-
-Run dev server to preview:
-
-1. npm install
-2. npm run dev
-
-Run dev server to preview:
-
-1. npm install
-2. npm run dev
 
