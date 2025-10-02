@@ -70,5 +70,6 @@ Changes made for Step 4:
    - Shows favorite streamers first. The top recommended live stream is displayed in a large player area.
    - Below the large player, a selectable list/grid of other recommended streams is available.
 
-
-
+Research Assistant Email:
+   youzenglong2002@gmail.com
+   J.K.HUANG@my.cityu.edu.hk
