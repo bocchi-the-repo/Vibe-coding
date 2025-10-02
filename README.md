@@ -72,4 +72,4 @@ Changes made for Step 4:
 
 Research Assistant Email:
    youzenglong2002@gmail.com
-   J.K.HUANG@my.cityu.edu.hk
+   junkhuang6-c@my.cityu.edu.hk
